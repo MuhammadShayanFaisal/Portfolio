@@ -719,7 +719,7 @@ font-size: 24px;
 .Pro{
   display: inline;
 }
-@media (width: 375px) {
+@media (max-width: 0px) {
   body{
     padding-right: 5px;
     padding-left: 5px;
@@ -1156,7 +1156,7 @@ margin-left: 0px;
 }
 
 }
-@media (max-width: 374px) {
+@media (max-width: 375px) {
   body{
     padding-right: 5px;
     padding-left: 7px;
@@ -1200,10 +1200,11 @@ margin-left: 0px;
 }
   #image{
     
-     display: block; 
-     width: 250px;
-     height: 200px;
-    margin: 0;}
+    display: block;
+        width: 290px;
+        height: 230px;
+        margin: 0;
+  }
     
   #One{
     margin: 0;
@@ -1212,7 +1213,7 @@ margin-left: 0px;
         font-size: 20px;
         margin-bottom: 10px;
         padding-left: 30px;
-        width: 250px;
+        /* width: 250px; */
         
   }
   .container1{
@@ -1221,22 +1222,22 @@ margin-left: 0px;
   }
   #text{
     font-size: 17px;
-    width: 250px;
+    /* width: 250px; */
   }
   #Educational-Background h1 {
    font-size: 20px;
    padding-left: 10px;
    margin-left: 0;
    margin-right: 0;
-   width: 250px;
+   /* width: 250px; */
   }
   #text1{
     font-size: 17px;
-    width: 250px;
+    /* width: 250px; */
   }
   #foot{
     font-size: 17px;
-    width: 230px;
+    /* width: 230px; */
   }
   #image1{
     /* margin-left: 65px; */
@@ -1261,7 +1262,7 @@ margin-left: 0px;
         padding-left: 60px;
   }
   #foot1{
-    width: 205px;
+    /* width: 205px; */
     font-size: 17px;
     padding-left: 0;
   }
@@ -1315,7 +1316,7 @@ margin-left: 0px;
     color: darkgray;
     display: inline-block;
     /* justify-content: space-between; */
-    width: 310px;
+    /* width: 310px; */
 }
 #Skills-mobile #para2{
   /* display: flex; */
@@ -1333,7 +1334,7 @@ margin-left: 0px;
     color: darkgray;
     display: inline-block;
     /* justify-content: space-between; */
-    width: 310px;
+    /* width: 310px; */
 }
  #Skills-mobile #para3{
   
@@ -1349,7 +1350,7 @@ margin-left: 0px;
     color: darkgray;
     display: inline-block;
     
-    width: 310px;
+    /* width: 310px; */
 } 
 #para1:hover{
   color: #ffbd39;
@@ -1408,7 +1409,7 @@ margin-left: 0px;
     border: 2px dashed cornflowerblue;
     color: darkgray;
     display: inline-block;
-    width: 310px;
+    /* width: 310px; */
 } 
 
 #experience h1{
@@ -1419,26 +1420,26 @@ margin-left: 0px;
 #img1{
   margin:0;
   margin-bottom: 10px;
-  width: 250px;
+  /* width: 250px; */
   margin-left: 0px;
 }
 #tex1{
     padding-top: 0;
     font-size: 17px;
     margin-left: 0;
-    width: 250px;
+    /* width: 250px; */
     
 }
 #img2{
   margin:0;
   margin-bottom: 10px;
-  width: 250px;
+  /* width: 250px; */
   margin-left: 0px;
 }
 #tex2{
   padding-top: 0;
   font-size: 17px;
-  width: 240px;
+  /* width: 240px; */
 }
 #Certifications-Awardsmob{
   display: block;
@@ -1455,11 +1456,11 @@ margin-left: 0px;
   margin-right: 0;
   margin-top: 0;
   text-transform: uppercase;
-  width: 250px;
+  /* width: 250px; */
  }
  #image11{
   margin-left: 0px;
-  width: 250px;
+  /* width: 250px; */
   
  }
  #text2{
@@ -1467,7 +1468,7 @@ margin-left: 0px;
         
         margin-left: 0px;
         margin-right: 0;
-        width: 220px;
+        /* width: 220px; */
         font-size: 17px;
  }
  #image12{
@@ -1481,7 +1482,7 @@ margin-left: 0px;
         margin-left: 0px;
         padding: 10px;
         font-size: 17px;
-        width: 220px;
+        /* width: 220px; */
  }
  #image13{
   margin-left: 0px;
@@ -1494,7 +1495,7 @@ margin-left: 0px;
     margin-left: 10px;
     padding: 10px;
     font-size: 22px;
-    width: 310px;
+    /* width: 310px; */
     /* animation: moveTogether 2s infinite; */
  }
  #Contact h1{
@@ -1538,7 +1539,7 @@ margin-left: 0px;
 #f{
   height: 530px;
   text-align: center;
-  width: 250px;
+  /* width: 250px; */
 }
 #B{
   margin-top: 0;
