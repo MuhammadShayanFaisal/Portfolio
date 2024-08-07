@@ -1156,7 +1156,7 @@ margin-left: 0px;
 }
 
 }
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   body{
     padding-right: 5px;
     padding-left: 7px;
@@ -1201,9 +1201,10 @@ margin-left: 0px;
   #image{
     
     display: block;
-        width: 290px;
+        width: 310px;
         height: 230px;
         margin: 0;
+        
   }
     
   #One{
@@ -1241,13 +1242,20 @@ margin-left: 0px;
   }
   #image1{
     /* margin-left: 65px; */
-    margin-left: 39px;
-        height: 180px;
+    /* margin-left: 39px; */
+        /* height: 180px; */
+        display: block; 
+        margin: 0 auto;
+         width: 50%;
   }
   #image-1{
     margin: 0px;
-    width: 220px;
+    /* width: 220px; */
     margin-left: 15px;
+    display: block;
+     margin: 0 auto;
+      width: 50%;
+      /* height: 100px; */
         
   }
   #Skills-mobile{
@@ -1273,8 +1281,9 @@ margin-left: 0px;
     margin-left: 60px;
   }
   #Skills-mobile #image2{
-    width: 310px;
     display: block;
+        margin: 0 auto;
+        width: 80%;
   }
   #Skills-mobile .Pro{
      font-size: 22px;
@@ -1287,7 +1296,9 @@ margin-left: 0px;
     margin-right: 0;
     width:310px;
     display: block;
-        margin-bottom: 10px;
+    margin-bottom: 10px;
+    margin:0 auto;
+    width: 80%;
   }
   .c{
     margin-left: 27px;
@@ -1298,6 +1309,10 @@ margin-left: 0px;
     width: 310px;
     display: block;
     margin-bottom: 10px;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 20px;
+    
   }
 
 #Skills-mobile #para1{
@@ -1315,8 +1330,20 @@ margin-left: 0px;
     border: 2px dashed cornflowerblue;
     color: darkgray;
     display: inline-block;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 10px;
+    font-size: 17px;
+
     /* justify-content: space-between; */
     /* width: 310px; */
+}
+.cbutt{
+  height: 30px;
+}
+.cbutl{
+  font-size: 17px;
 }
 #Skills-mobile #para2{
   /* display: flex; */
@@ -1325,16 +1352,16 @@ margin-left: 0px;
     font-family:'Times New Roman', Times, serif;
     font-weight:100;
     color:darkgray;
-    /* text-align: left; */
-    /* padding-right: 10px; */
-    /* margin-right: 40px; */
     padding-top: 5px;
     padding-bottom: 5px;
     border: 2px dashed cornflowerblue;
     color: darkgray;
     display: inline-block;
-    /* justify-content: space-between; */
-    /* width: 310px; */
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 10px;
+    font-size: 17px;
 }
  #Skills-mobile #para3{
   
@@ -1348,8 +1375,11 @@ margin-left: 0px;
     padding-bottom: 5px;
     border: 2px dashed cornflowerblue;
     color: darkgray;
-    display: inline-block;
-    
+    /* display: inline-block; */
+    display: block;
+    margin:0 auto;
+    width: 80%;
+    font-size: 17px;
     /* width: 310px; */
 } 
 #para1:hover{
@@ -1358,7 +1388,10 @@ margin-left: 0px;
 #image5{
   width: 310px;
   display: block;
+  margin: 0 auto;
+  width: 80%;
     margin-bottom: 10px;
+    
 }
 .aa{
   margin-right: 0;
@@ -1374,12 +1407,18 @@ margin-left: 0px;
 #image7{
   margin:0;
   margin-bottom: 10px;
-  width: 310px;
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+ 
 }
 #image6{
   margin:0;
-  margin-bottom: 10px;
   width: 310px;
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 10px;
 }
 #image8{
   margin:0;
@@ -1433,7 +1472,7 @@ margin-left: 0px;
 #img2{
   margin:0;
   margin-bottom: 10px;
-  /* width: 250px; */
+  width: 310px;
   margin-left: 0px;
 }
 #tex2{
@@ -1460,7 +1499,7 @@ margin-left: 0px;
  }
  #image11{
   margin-left: 0px;
-  /* width: 250px; */
+  width: 310px;
   
  }
  #text2{
