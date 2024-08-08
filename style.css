@@ -1266,11 +1266,15 @@ margin-left: 0px;
   }
   #Skills-mobile h1{
     margin: 0;
-        margin-top: 75px;
-        padding-left: 10px;
-        font-size: 20px;
-        margin-bottom: 10px;
-        padding-left: 60px;
+    margin-top: 75px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 60px;
+  }
+  .Heading{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
   }
   #foot1{
     /* width: 205px; */
@@ -1289,7 +1293,8 @@ margin-left: 0px;
         width: 80%;
   }
   #Skills-mobile .Pro{
-     font-size: 22px;
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
   }
   #Skills-mobile .b{
     margin-left: 40px;
@@ -1317,7 +1322,6 @@ margin-left: 0px;
     margin-bottom: 20px;
     
   }
-
 #Skills-mobile #para1{
   /* display: flex; */
   
@@ -1347,6 +1351,7 @@ margin-left: 0px;
 }
 .cbutl{
   font-size: 17px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #Skills-mobile #para2{
   /* display: flex; */
@@ -1506,7 +1511,7 @@ margin-left: 0px;
   display: none;
 }
 #Certifications-Awardsmob h1 {
-  color: #ffbd39;
+  color:rgb(202, 149, 12);
   font-size: 20px;
   padding-left: 10px;
   margin-left: 0;
@@ -1657,8 +1662,9 @@ margin-left: 0px;
   padding: 15px;
   text-decoration: none;
   color: white;
-  font-family: cursive;
-  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 17px;
+  padding-bottom: 0;
 }
 
 .nav-menu a:hover {
