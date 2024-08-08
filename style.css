@@ -1657,7 +1657,7 @@ margin-left: 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
         padding-left: 200px;
  
   cursor: pointer;
