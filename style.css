@@ -1173,7 +1173,7 @@ margin-left: 0px;
 }
 
 }
-@media (max-width: 500px) {
+@media (max-width: 767px) {
   body{
     padding-right: 5px;
     padding-left: 7px;
@@ -1216,14 +1216,13 @@ margin-left: 0px;
   display: none;
 }
   #image{
-    
-    display: block;
-        width: 310px;
-        height: 230px;
-        margin: 0;
+  display: block;
+        /* width: 310px; */
+        height: 290px;
+        margin: 0 auto;
+        width: 90%;    
         
   }
-    
   #One{
     margin: 0;
     margin-top: 75px;
@@ -1239,9 +1238,13 @@ margin-left: 0px;
     padding: 0;
   }
   #text{
-    font-size: 17px;
+    
     padding-left: 5px;
-    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+   
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
   }
   #Educational-Background h1 {
@@ -1254,10 +1257,16 @@ margin-left: 0px;
   #text1{
     font-size: 17px;
     padding-left: 5px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
   #foot{
     font-size: 17px;
     /* width: 230px; */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
   #image1{
     /* margin-left: 65px; */
@@ -1266,6 +1275,7 @@ margin-left: 0px;
         display: block; 
         margin: 0 auto;
          width: 50%;
+         height: 165px;
   }
   #image-1{
     margin: 0px;
@@ -1273,8 +1283,8 @@ margin-left: 0px;
     margin-left: 15px;
     display: block;
      margin: 0 auto;
-      width: 50%;
-      /* height: 100px; */
+      width: 70%;
+      height: 140px;
         
   }
   #Skills-mobile{
@@ -1296,6 +1306,9 @@ margin-left: 0px;
     /* width: 205px; */
     font-size: 17px;
     padding-left: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
   #Skills {
       display: none;
@@ -1357,6 +1370,9 @@ margin-left: 0px;
     margin-top: 10px;
     font-size: 17px;
     padding: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     /* justify-content: space-between; */
     /* width: 310px; */
 }
@@ -1365,7 +1381,9 @@ margin-left: 0px;
 }
 .cbutl{
   font-size: 17px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 #Skills-mobile #para2{
   /* display: flex; */
@@ -1383,6 +1401,9 @@ margin-left: 0px;
     width: 80%;
     margin-top: 10px;
     font-size: 17px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
  #Skills-mobile #para3{
   
@@ -1399,7 +1420,9 @@ margin-left: 0px;
     margin:0 auto;
     width: 80%;
     font-size: 17px;
-    /* width: 310px; */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 } 
 #para1:hover{
   color: #ffbd39;
@@ -1446,7 +1469,7 @@ margin-left: 0px;
   display: block;
   width: 80%;
   margin-bottom: 18px;
-  height: 300px;
+  height: 200px;
   margin-top: 15px;
 }
 #image9{
@@ -1500,7 +1523,9 @@ margin-left: 0px;
     font-size: 17px;
     margin-left: 0;
     padding-left: 5px;
-    /* width: 250px; */
+    font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-style: normal;
     
 }
 #img2{
@@ -1514,6 +1539,9 @@ margin-left: 0px;
   font-size: 17px;
   margin-left: 0;
   padding-left: 5px;
+  font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-style: normal;
   /* width: 240px; */
 }
 #Certifications-Awardsmob{
@@ -1538,7 +1566,7 @@ margin-left: 0px;
   width: 310px;
   display: block;
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   
  }
  #text2{
@@ -1551,12 +1579,15 @@ margin-left: 0px;
         margin: 0 auto;
         display: block;
         width: 80%;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-style: normal;
  }
  
  #image12{
   margin:0 auto;
   display: block;
-  width: 80%;
+  width: 90%;
   /* margin-left: 0px; */
         /* width: 250px; */
  }
@@ -1572,11 +1603,14 @@ margin-left: 0px;
         width: 80%;
         margin: 0 auto;
         margin-top: 10px;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-style: normal;
  }
  #image13{
   margin:0 auto;
   display: block;
-  width: 80%;
+  width: 90%;
  }
  #text4{
   font-family: 'Times New Roman', Times, serif;
@@ -1612,6 +1646,9 @@ margin-left: 0px;
   /* padding-left: 70px; */
   font-size: 17px;
  text-align: center;
+ font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-style: normal;
 }
 #phone{
   padding-left: 55px;
@@ -1628,6 +1665,9 @@ margin-left: 0px;
   /* padding-left: 70px; */
   font-size: 17px;
   text-align: center;
+  font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-style: normal;
 }
 #last{
   display: block;
@@ -1644,10 +1684,16 @@ margin-left: 0px;
   height: 530px;
   text-align: center;
   /* width: 250px; */
+  font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-style: normal;
 }
 #B{
   margin-top: 0;
   text-align: left;
+  font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-style: normal;
 }
 .menu-toggle {
   display: none;
@@ -1657,7 +1703,7 @@ margin-left: 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
         padding-left: 200px;
  
   cursor: pointer;
@@ -1681,6 +1727,7 @@ margin-left: 0px;
   right: 0;
   width: 100%;
   text-align: right;
+ 
 }
 
 .nav-menu a {
@@ -1690,6 +1737,9 @@ margin-left: 0px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 17px;
   padding-bottom: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .nav-menu a:hover {
