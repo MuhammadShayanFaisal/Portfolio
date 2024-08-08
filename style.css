@@ -1226,6 +1226,8 @@ margin-left: 0px;
   }
   #text{
     font-size: 17px;
+    margin-left: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     /* width: 250px; */
   }
   #Educational-Background h1 {
@@ -1274,7 +1276,7 @@ margin-left: 0px;
   }
   .Heading{
     font-size: 20px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   #foot1{
     /* width: 205px; */
@@ -1294,7 +1296,7 @@ margin-left: 0px;
   }
   #Skills-mobile .Pro{
      font-size: 20px;
-     font-family: Arial, Helvetica, sans-serif;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   #Skills-mobile .b{
     margin-left: 40px;
@@ -1332,8 +1334,6 @@ margin-left: 0px;
     /* text-align: left; */
     /* padding-right: 10px; */
     /* margin-right: 40px; */
-    padding-top: 5px;
-    padding-bottom: 5px;
     border: 2px dashed cornflowerblue;
     color: darkgray;
     display: inline-block;
@@ -1342,7 +1342,7 @@ margin-left: 0px;
     width: 80%;
     margin-top: 10px;
     font-size: 17px;
-
+    padding: 10px;
     /* justify-content: space-between; */
     /* width: 310px; */
 }
@@ -1360,8 +1360,7 @@ margin-left: 0px;
     font-family:'Times New Roman', Times, serif;
     font-weight:100;
     color:darkgray;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding:10px;
     border: 2px dashed cornflowerblue;
     color: darkgray;
     display: inline-block;
@@ -1378,9 +1377,7 @@ margin-left: 0px;
     font-family:'Times New Roman', Times, serif;
     font-weight:100;
     color:darkgray;
-    
-    padding-top: 5px;
-    padding-bottom: 5px;
+   padding: 10px;
     border: 2px dashed cornflowerblue;
     color: darkgray;
     /* display: inline-block; */
@@ -1434,8 +1431,9 @@ margin-left: 0px;
   margin: 0 auto;
   display: block;
   width: 80%;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
   height: 300px;
+  margin-top: 15px;
 }
 #image9{
   margin: 0 auto;
