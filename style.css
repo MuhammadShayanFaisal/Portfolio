@@ -1214,7 +1214,7 @@ margin-left: 0px;
     margin: 0;
         margin-top: 75px;
         padding-left: 10px;
-        font-size: 20px;
+        font-size: 22px;
         margin-bottom: 10px;
         padding-left: 30px;
         /* width: 250px; */
@@ -1227,11 +1227,10 @@ margin-left: 0px;
   #text{
     font-size: 17px;
     margin-left: 5px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* width: 250px; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   #Educational-Background h1 {
-   font-size: 20px;
+   font-size: 22px;
    padding-left: 10px;
    margin-left: 0;
    margin-right: 0;
@@ -1270,7 +1269,7 @@ margin-left: 0px;
     margin: 0;
     margin-top: 75px;
     padding-left: 10px;
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 10px;
     padding-left: 60px;
   }
@@ -1471,7 +1470,7 @@ margin-left: 0px;
 #experience h1{
   padding-left: 40px;
   margin-left: 0;
-  font-size: 20px;
+  font-size: 22px;
 }
 #img1{
   margin:0;
@@ -1510,7 +1509,7 @@ margin-left: 0px;
 }
 #Certifications-Awardsmob h1 {
   color:rgb(202, 149, 12);
-  font-size: 20px;
+  font-size: 22px;
   padding-left: 10px;
   margin-left: 0;
   margin-right: 0;
@@ -1574,7 +1573,7 @@ margin-left: 0px;
     /* animation: moveTogether 2s infinite; */
  }
  #Contact h1{
-  font-size: 20px;
+  font-size: 22px;
   padding-left:10px;
   margin-left: 0;
   margin-right: 0;
