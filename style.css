@@ -51,6 +51,9 @@ header{
     text-decoration: underline ;
     text-underline-offset: 1em;
 }
+.skip-link-t{
+  display:none;
+}
 .skip-link-s{
   display: none;
 }
@@ -162,16 +165,11 @@ header{
     margin-top: 45px;
     font-size: 30px;
   }
-  #Skills-mobile h1{
-    color:rgb(202, 149, 12);
-    text-transform:uppercase;
-    margin: 30px;
-    padding-left: 140px;
-    margin-top: 45px;
-    font-size: 30px;
-  }
   #Skills-mobile{
     display: none;
+ }
+ #Skills-tab{
+  display: none;
  }
   .Heading{
     font-size: 30px;
@@ -507,6 +505,9 @@ transform: scale(1.1);
  
   animation: moveTogether 2s infinite;
 }
+.container-4{
+  animation: moveTogether 2s infinite;
+}
 #text2{
   margin-left: 245px;
   margin-right: 245px;
@@ -695,17 +696,30 @@ font-size: 24px;
 .A:hover{
   color: brown;
 }
-.Al{
+.Al1{
   margin-left: 105px;
   margin-top: 30px;
   font-size: 20px;
   text-decoration:none ;
   color: black;
 }
-.Al:hover{
+.Al1:hover{
+  color: brown;
+}
+.Al2{
+  margin-left: 105px;
+  margin-top: 30px;
+  font-size: 20px;
+  text-decoration:none ;
+  color: black;
+}
+.Al2:hover{
   color: brown;
 }
 .Ab{
+  display: none;
+}
+.Ac{
   display: none;
 }
 
@@ -1177,7 +1191,154 @@ margin-left: 0px;
 }
 
 }
+@media (max-width:1285px){
+  .skip-link-t{
+    padding-right: 30px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-family:cursive;
+    font-size: 20px;
+}
+.skip-link-t:hover{
+    color: lightblue;
+    text-decoration: underline ;
+    text-underline-offset: 1em;
+}
+.skip-links{
+  display:none;
+}
+.skip-link-s{
+  display:none;
+}
+.skip-link-c{
+  display:none;
+}
+  #image{
+        width: 460px;
+      }
+  .container1{
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  #Skills{
+    display: none;
+  }
+  #image3{
+    margin-right: 10px;
+    
+  }
+  #image2{
+    /* margin-left: 30px; */
 
+  }
+  #image5{
+
+  }
+  #image10{
+    margin-left: 200px;
+  }
+  #para1{
+    margin-right: 150px;
+  }
+  .Pro{
+    display: block;
+  }
+  .b{
+    margin-left: 300px;
+    display: inline-block;
+  }
+  #Skills-tab{
+    display: block;
+  }
+  #Skills-tab h1{
+    
+      color:rgb(202, 149, 12);
+      text-transform:uppercase;
+      margin: 30px;
+      padding-left: 140px;
+      margin-top: 45px;
+      font-size: 30px;
+    
+  }
+  .container2p{
+    display: flex;
+    justify-content: space-between;
+  }
+  #C{
+     margin: 10px;
+  }
+  .container3{
+    display: block;
+    width: 420px;
+  }
+  #para1{
+    padding: 5px;
+  }
+  #para2{
+    padding: 5px;
+  }
+  #para3{
+    padding: 5px;
+  }
+  #image-1{
+      margin-left: 0;
+  }
+  #img1{
+width: 300px;
+margin-left: 0;
+margin-right: 0;
+  }
+  #img2{
+    width: 300px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #image11{
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+
+  }
+  #text2{
+    margin: 0 auto;
+    display :block;
+    width: 70%;
+  }
+  #image13{
+    margin-top: 170px;
+    width: 370px;
+    height: 400px;
+    margin-left: 120px;
+  }
+  .container-4{
+     display: flex;
+  }
+  .Ac{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+    text-decoration:none ;
+    color: black;
+    display:inline-block;
+  }
+  .Ac:hover{
+    color: brown;
+  }
+  .A{
+    margin-left: 50px;
+  }
+  .Al2{
+    margin-left: 50px;
+  }
+  .Al1 {
+    display: none;
+  }
+  .Ab{
+    display: none;
+  }
+
+}
 @media (max-width: 1000px) {
   body{
     padding-right: 5px;
@@ -1219,6 +1380,9 @@ margin-left: 0px;
 }
 .skip-linkc{
   display: none;
+}
+.skip-link-t{
+  display:none;
 }
   #image{
   display: block;
@@ -1307,6 +1471,10 @@ margin-left: 0px;
     font-style: normal;
     font-family: "Poppins", sans-serif;
     font-weight: 800;
+    color: #ffbd39;
+  }
+  #Skills-tab{
+    display: none;
   }
   .Heading{
     font-size: 20px;
@@ -1824,7 +1992,13 @@ margin-left: 0px;
 .Ab:hover{
   color: brown;
 }
-.Al{
+.Al1{
+  display: none;
+}
+.Al2{
+  display:none;
+}
+.Ac{
   display: none;
 }
 
@@ -1871,6 +2045,9 @@ margin-left: 0px;
 }
 .skip-linkc{
   display: none;
+}
+.skip-link-t{
+  display:none;
 }
   #image{
   display: block;
@@ -1959,6 +2136,9 @@ margin-left: 0px;
     font-style: normal;
     font-family: "Poppins", sans-serif;
     font-weight: 800;
+  }
+  #Skills-tab{
+    display:none;
   }
   .Heading{
     font-size: 20px;
@@ -2476,7 +2656,13 @@ margin-left: 0px;
 .Ab:hover{
   color: brown;
 }
-.Al{
+.Al1{
+  display: none;
+}
+.Al2{
+  display:none;
+}
+.Ac{
   display: none;
 }
 
@@ -2522,6 +2708,9 @@ margin-left: 0px;
    display: none;
 }
 .skip-linkc{
+  display: none;
+}
+.skip-link-t{
   display: none;
 }
   #image{
@@ -2612,6 +2801,10 @@ margin-left: 0px;
     font-style: normal;
     font-family: "Poppins", sans-serif;
     font-weight: 800;
+    color: #ffbd39;
+  }
+  #Skills-tab{
+    display:none;
   }
   .Heading{
     font-size: 20px;
@@ -3125,7 +3318,13 @@ margin-left: 0px;
 .Ab:hover{
   color: brown;
 }
-.Al{
+.Al1{
+  display: none;
+}
+.Al2{
+  display:none;
+}
+.Ac{
   display: none;
 }
 
@@ -3172,6 +3371,9 @@ margin-left: 0px;
 }
 .skip-linkc{
   display: none;
+}
+.skip-link-t{
+  display:none;
 }
   #image{
   display: block;
@@ -3261,6 +3463,10 @@ margin-left: 0px;
     font-style: normal;
     font-family: "Poppins", sans-serif;
     font-weight: 800;
+    color: #ffbd39;
+  }
+  #Skills-tab{
+    display:none;
   }
   .Heading{
     font-size: 20px;
@@ -3775,7 +3981,13 @@ margin-left: 0px;
 .Ab:hover{
   color: brown;
 }
-.Al{
+.Al1{
+  display: none;
+}
+.Al2{
+  display:none;
+}
+.Ac{
   display: none;
 }
 
