@@ -4,27 +4,19 @@ body{
 html{
   scroll-behavior: smooth;
 }
-/* .head{
-  position:fixed;
-  text-align: right;
-  margin-top: 35px;
-    text-align: right;
-} */
 header{
      position: fixed;
   top: 0; 
   right: 0;
   width: 100%;
   background-color:black;
-  text-align: right;
-    /* margin-top: 35px; */
+  text-align: right; 
     margin-bottom: 35px;
     z-index: 1000;
 }
 .menu-icon {
   display: none;
 }
-
 .nav-menu {
   display: flex;
   flex-direction: row;
@@ -34,7 +26,6 @@ header{
   align-items: flex-end;
   justify-content: right;
 }
-
 .nav-menu a {
   padding: 10px 20px;
 }
@@ -68,7 +59,6 @@ header{
   font-family:cursive, "Poppins", sans-serif;
         font-weight: 500;
         font-style: normal;
-  
   font-size: 20px;
 }
 .skip-links:hover{
@@ -80,7 +70,6 @@ header{
   padding-right: 30px;
   text-decoration: none;
   color: white;
-  
   font-family:cursive, "Poppins", sans-serif;
         font-weight: 500;
         font-style: normal;
@@ -92,17 +81,14 @@ header{
   text-underline-offset: 1em;
 }
 #image{
-   
    height: 450px;
    margin-right: 20px;
-   
 }
 #One{
     color:#ffbd39;
     text-transform:uppercase;
     margin: 30px;
     padding-left: 90px;
-    /* margin-bottom: 0; */
     margin-top: 75px;
     font-size: 30px;
 }
@@ -110,13 +96,11 @@ header{
     color: aliceblue;
 }
 #text{
-   
     margin: 0;
     font-size: 24px;
     font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
-    
     color:darkgray;
 }
 #text b:hover{
@@ -124,11 +108,10 @@ header{
 }
 .container {
     display: flex;
-    align-items: center; /* Align items vertically center */
-    padding-left: 165px; /* Match the heading's padding */
-    
+    align-items: center; 
+    padding-left: 165px; 
     padding-left: 0;
-  }
+}
   .container1{
     display: flex;
     align-items: center;
@@ -156,7 +139,6 @@ header{
 #image-1:hover{
   transform: scale(1.1);
 }
-
   #Educational-Background h1{
     color:#ffbd39;
     text-transform:uppercase;
@@ -181,7 +163,6 @@ header{
  }
   .Heading{
     font-size: 30px;
-    /* font-weight:100; */
     color:darkgray;
     font-style: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,"Poppins", sans-serif;
@@ -204,7 +185,6 @@ header{
     font-style: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,"Poppins", sans-serif;
     font-weight: 800;
-
   }
   .a:hover{
     color:#ffbd39;
@@ -228,7 +208,6 @@ header{
     font-style: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,"Poppins", sans-serif;
     font-weight: 800;
-
   }
   .c:hover{
     color:#ffbd39;
@@ -292,14 +271,9 @@ header{
     font-weight:100;
     color:darkgray;
 }
-/* .container2:hover{
-  color: #ffbd39;
-} */
   #para1{
     flex: 1;
     text-align: left;
-      /* padding-right: 10px;  */
-    /* margin-right: 40px;  */
     padding-top: 5px;
     padding-bottom:5px ;
     font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
@@ -315,8 +289,6 @@ header{
     flex:1;
     text-align:center;
     text-align: left;
-    /* margin-left: 7px; */
-    /* padding-right: 75px; */
     padding-top: 5px;
     padding-bottom:5px ;
     font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
@@ -454,11 +426,6 @@ header{
   padding-top: 35px;
   padding-bottom: 40px;
   margin-bottom: 0;
-
-  /* border: 2px solid red; */
-}
-#experience{
-  /* background-image: url(/metapic.jpg); */
 }
 #img1{
   place-items: left;
@@ -474,17 +441,13 @@ transform: scale(1.1);
   font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
-  
   color: darkgray;
   margin: 10px;
   padding-top: 35px;
   padding-bottom: 40px;
-
-  /* border: 2px solid red; */
 }
 #tex2{
   font-size: 24px;
-  
   font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -493,7 +456,6 @@ transform: scale(1.1);
   padding-top: 35px;
   padding-bottom: 40px;
   margin-bottom: 0;
-  /* border: 2px solid red; */
 }
 #img2{
   place-items: left;
@@ -510,8 +472,7 @@ transform: scale(1.1);
     margin: 30px;
     padding-left: 90px;
     margin-top: 45px;
-    font-size: 30px;
-    
+    font-size: 30px;  
 }
 #text1{
    margin-right: 15px; 
@@ -519,8 +480,7 @@ transform: scale(1.1);
   font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: darkgray;
-    
+    color: darkgray; 
 }
 #text1 b:hover{
      color:#04fffb;
@@ -547,11 +507,9 @@ transform: scale(1.1);
 #image12{
      margin: 10px;
      margin-left: 55px;
-     /* height: 500px; */
 }
 .container4{
   align-items: center;
- 
   animation: moveTogether 2s infinite;
 }
 .container-4{
@@ -566,7 +524,6 @@ transform: scale(1.1);
     font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
-  
   color: darkgray;
 }
 @keyframes moveTogether {
@@ -586,7 +543,6 @@ transform: scale(1.1);
   margin-left: 150px;
 }
 .container5{
-
 display: flex;
   animation: moveTogether 2s infinite;
 justify-content: space-between;
@@ -600,7 +556,6 @@ font-size: 24px;
   text-align: left;
   border:2px solid red;
   margin-left:42px;
-  /* width:1400px; */
   padding: 10px;
   padding-right: 40px;
   display: inline-block;
@@ -630,16 +585,11 @@ font-size: 24px;
     margin-top: 0;
 }
 #last{
-  /* background-color:rgb(35, 34, 34) */
-  /* height: 350px;  */
-  /* place-items: center; */
-  /* align-items: center; */
   display: flex;
   margin-bottom: 40px;
   margin-top: 40px;
 }
 #insta{
-  /* height: 50px; */
   font-size: 50px;
   margin-left: 450px;
   color:white;
@@ -710,7 +660,6 @@ font-size: 24px;
 }
 #phone{
    width: 50px;
-   /* margin-right: 130px; */
 }
 #but1{
   padding: 0;
@@ -724,7 +673,6 @@ font-size: 24px;
   font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
-  
   color: darkgray;
   margin-top: 0;
 }
@@ -737,7 +685,6 @@ font-size: 24px;
   width: 50px;
   padding-left: 190px;
 }
-
 #f{
   background-color:rgb(35, 34, 34);
   height: 320px;
@@ -778,7 +725,6 @@ font-size: 24px;
 .Ac{
   display: none;
 }
-
 #B{
   background-color: rgb(35, 34, 34);
   color: black;
@@ -792,7 +738,6 @@ font-size: 24px;
 #foot{
   padding-left: 20px;
   font-size: 24px;
-  
   font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -804,7 +749,6 @@ font-size: 24px;
   font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
-  
   color: darkgray;
 }
 .Pro{
@@ -839,7 +783,7 @@ font-size: 24px;
   display:none;
 }
   #image{
-        width: 460px;
+    width: 460px;
       }
   .container1{
     padding-left: 80px;
@@ -850,14 +794,6 @@ font-size: 24px;
   }
   #image3{
     margin-right: 10px;
-    
-  }
-  #image2{
-    /* margin-left: 30px; */
-
-  }
-  #image5{
-
   }
   #image10{
     margin-left: 200px;
@@ -876,14 +812,12 @@ font-size: 24px;
     display: block;
   }
   #Skills-tab h1{
-    
       color:#ffbd39;
       text-transform:uppercase;
       margin: 30px;
       padding-left: 90px;
       margin-top: 45px;
       font-size: 30px;
-    
   }
   .container2p{
     display: flex;
@@ -896,7 +830,6 @@ font-size: 24px;
     display: block;
     width: 420px;
     margin-right: 0;
-
   }
   #para1{
     padding: 5px;
@@ -924,7 +857,6 @@ margin-right: 0;
     margin: 0 auto;
     display: block;
     width: 70%;
-
   }
   #text2{
     margin: 0 auto;
@@ -972,7 +904,6 @@ margin-right: 0;
   .Ab{
     display: none;
   }
-
 }
 @media (max-width: 1000px) {
   body{
@@ -981,15 +912,13 @@ margin-right: 0;
     margin: 0;
   }
   body .container{
-    display:block; 
-     /* justify-content:none; */
+    display:block;
   }
   .skip-link-s{
     padding-right: 30px;
     text-decoration: none;
     color: white;
     display: block;
-    
 }
 .skip-link-s:hover{
     color: lightblue;
@@ -1018,7 +947,6 @@ margin-right: 0;
 }
   #image{
   display: block;
-        /* width: 310px; */
         height: 340px;
         margin: 0 auto;
         width: 53%;     
@@ -1039,14 +967,11 @@ margin-right: 0;
     padding: 0;
   }
   #text{
-    
     padding-left: 5px;
     font-size: 17px;
-   
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
-
   }
   #Educational-Background h1 {
     font-size: 22px;
@@ -1066,15 +991,11 @@ margin-right: 0;
   }
   #foot{
     font-size: 17px;
-    /* width: 230px; */
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
   #image1{
-    /* margin-left: 65px; */
-    /* margin-left: 39px; */
-        /* height: 180px; */
         display: block; 
         margin: 0 auto;
          width: 28%;
@@ -1082,7 +1003,6 @@ margin-right: 0;
   }
   #image-1{
     margin: 0px;
-    /* width: 220px; */
     margin-left: 15px;
     display: block;
      margin: 0 auto;
@@ -1115,7 +1035,6 @@ margin-right: 0;
     font-weight: 800;
   }
   #foot1{
-    /* width: 205px; */
     font-size: 17px;
     padding-left: 0;
     font-family: "Inter", sans-serif;
@@ -1126,14 +1045,17 @@ margin-right: 0;
       display: none;
   }
   #Skills-mobile .a{
-    margin-left: 60px;
+    display: flex;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
   }
   #Skills-mobile #image2{
     display: block;
         margin: 0 auto;
         width: 55%;
   }
-  
 #Skills-mobile .Pro{
   font-size: 19px;
   font-style: normal;
@@ -1155,7 +1077,6 @@ margin-right: 0;
   .c{
     margin-left: 27px;
     margin-right: 0;
-    
   }
   #image4{
     width: 310px;
@@ -1164,32 +1085,24 @@ margin-right: 0;
     margin: 0 auto;
     width: 55%;
     margin-bottom: 20px;
-    
   }
 #Skills-mobile #para1{
-  /* display: flex; */
-  
   font-size: 22px;
     font-family:'Times New Roman', Times, serif;
     font-weight:100;
     color:darkgray;
-    /* text-align: left; */
-    /* padding-right: 10px; */
-    /* margin-right: 40px; */
     border: 2px dashed cornflowerblue;
     color: darkgray;
     display: inline-block;
     display: block;
     margin: 0 auto;
     width: 80%;
-    margin-top: 10px;
+    margin-top: 25px;
     font-size: 17px;
     padding: 10px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
-    /* justify-content: space-between; */
-    /* width: 310px; */
 }
 .cbutt{
   height: 30px;
@@ -1200,45 +1113,6 @@ margin-right: 0;
   font-weight: 500;
   font-style: normal;
 }
-#Skills-mobile #para2{
-  /* display: flex; */
-  
-  font-size: 22px;
-    font-family:'Times New Roman', Times, serif;
-    font-weight:100;
-    color:darkgray;
-    padding:10px;
-    border: 2px dashed cornflowerblue;
-    color: darkgray;
-    display: inline-block;
-    display: block;
-    margin: 0 auto;
-    width: 80%;
-    margin-top: 10px;
-    font-size: 17px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
- #Skills-mobile #para3{
-  
-  
-  font-size: 22px;
-    font-family:'Times New Roman', Times, serif;
-    font-weight:100;
-    color:darkgray;
-   padding: 10px;
-    border: 2px dashed cornflowerblue;
-    color: darkgray;
-    /* display: inline-block; */
-    display: block;
-    margin:0 auto;
-    width: 80%;
-    font-size: 17px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-} 
 #para1:hover{
   color: #ffbd39;
 }
@@ -1248,18 +1122,6 @@ margin-right: 0;
   margin: 0 auto;
   width: 55%;
     margin-bottom: 10px;
-    
-}
-.aa{
-  margin-right: 0;
-  margin-left: 105px;
-
-}
-.bb{
-  margin-left: 65px;
-}
-.cc{
-  margin-left: 90px;
 }
 #image7{
   margin:0;
@@ -1267,7 +1129,6 @@ margin-right: 0;
   display: block;
   margin: 0 auto;
   width: 55%;
- 
 }
 #image6{
   margin:0;
@@ -1278,8 +1139,6 @@ margin-right: 0;
   margin-bottom: 10px;
 }
 #image8{
-  margin:0;
- 
   margin: 0 auto;
   display: block;
   width: 55%;
@@ -1301,25 +1160,6 @@ margin-right: 0;
   margin-bottom: 20px;
   height: 250px;
 }
-#Skills-mobile .container3{
-  
-  
-  font-size: 17px;
-    font-family:'Times New Roman', Times, serif;
-    font-weight:100;
-    color:darkgray;
-    
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: 2px dashed cornflowerblue;
-    color: darkgray;
-    display: inline-block;
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-    /* width: 310px; */
-} 
-
 #experience h1{
   padding-left: 30px;
   margin-left: 0;
@@ -1796,7 +1636,11 @@ margin-left: 0px;
       display: none;
   }
   #Skills-mobile .a{
-    margin-left: 60px;
+    display: flex;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 18px;
   }
   #Skills-mobile #image2{
     display: block;
@@ -1852,7 +1696,7 @@ margin-left: 0px;
     display: block;
     margin: 0 auto;
     width: 80%;
-    margin-top: 10px;
+    margin-top: 22px;
     font-size: 17px;
     padding: 10px;
     font-family: "Inter", sans-serif;
@@ -2468,7 +2312,11 @@ margin-left: 0px;
       display: none;
   }
   #Skills-mobile .a{
-    margin-left: 60px;
+    display: flex;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 15px;
   }
   #Skills-mobile #image2{
     display: block;
@@ -2522,7 +2370,7 @@ margin-left: 0px;
     display: block;
     margin: 0 auto;
     width: 80%;
-    margin-top: 10px;
+    margin-top: 17px;
     font-size: 17px;
     padding: 10px;
     font-family: "Inter", sans-serif;
@@ -3137,7 +2985,11 @@ margin-left: 0px;
       display: none;
   }
   #Skills-mobile .a{
-    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+   margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   #Skills-mobile #image2{
     display: block;
@@ -3192,7 +3044,7 @@ margin-left: 0px;
     display: block;
     margin: 0 auto;
     width: 80%;
-    margin-top: 10px;
+    margin-top: 13px;
     font-size: 17px;
     padding: 10px;
     font-family: "Inter", sans-serif;
