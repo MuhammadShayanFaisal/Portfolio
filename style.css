@@ -42,8 +42,9 @@ header{
     padding-right: 30px;
     text-decoration: none;
     color: white;
-    
-    font-family:cursive;
+    font-family:cursive, "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
     font-size: 20px;
 }
 .skip-link:hover{
@@ -64,8 +65,10 @@ header{
   padding-right: 30px;
   text-decoration: none;
   color: white;
+  font-family:cursive, "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
   
-  font-family:cursive;
   font-size: 20px;
 }
 .skip-links:hover{
@@ -78,7 +81,9 @@ header{
   text-decoration: none;
   color: white;
   
-  font-family:cursive;
+  font-family:cursive, "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
   font-size: 20px;
 }
 .skip-linkc:hover{
@@ -93,10 +98,11 @@ header{
    
 }
 #One{
-    color:rgb(202, 149, 12);
+    color:#ffbd39;
     text-transform:uppercase;
     margin: 30px;
-    padding-left: 165px;
+    padding-left: 90px;
+    /* margin-bottom: 0; */
     margin-top: 75px;
     font-size: 30px;
 }
@@ -107,8 +113,10 @@ header{
    
     margin: 0;
     font-size: 24px;
-    font-family:'Times New Roman', Times, serif;
-    font-weight:100;
+    font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
     color:darkgray;
 }
 #text b:hover{
@@ -150,7 +158,7 @@ header{
 }
 
   #Educational-Background h1{
-    color:rgb(202, 149, 12);
+    color:#ffbd39;
     text-transform:uppercase;
     margin: 30px;
     padding-left: 90px;
@@ -158,10 +166,10 @@ header{
     font-size: 30px;
   }
   #Skills h1{
-    color:rgb(202, 149, 12);
+    color:#ffbd39;
     text-transform:uppercase;
     margin: 30px;
-    padding-left: 140px;
+    padding-left: 90px;
     margin-top: 45px;
     font-size: 30px;
   }
@@ -173,15 +181,18 @@ header{
  }
   .Heading{
     font-size: 30px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight:100;
+    /* font-weight:100; */
     color:darkgray;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,"Poppins", sans-serif;
+    font-weight: 800;
   }
   .Pro{
     font-size: 24px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight:100;
     color:darkgray;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,"Poppins", sans-serif;
+    font-weight: 800;
   }
   .Pro :hover{
       color: #04fffb;
@@ -190,6 +201,9 @@ header{
     margin: 40px;
     display: inline-block;
     margin-left: 85px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,"Poppins", sans-serif;
+    font-weight: 800;
 
   }
   .a:hover{
@@ -199,6 +213,9 @@ header{
     margin: 40px;
     display: inline-block;
     margin-left: 165px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,"Poppins", sans-serif;
+    font-weight: 800;
 
   }
   .b:hover{
@@ -208,6 +225,9 @@ header{
     margin: 40px;
     display: inline-block;
     margin-left: 115px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,"Poppins", sans-serif;
+    font-weight: 800;
 
   }
   .c:hover{
@@ -217,6 +237,9 @@ header{
     margin: 40px;
     display: inline-block;
     margin-left: 545px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,"Poppins", sans-serif;
+    font-weight: 800;
   }
   .d:hover{
     color:#ffbd39;
@@ -227,6 +250,9 @@ header{
     margin-top: 20px;
     margin-bottom: 20px;
     display: inline-block;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,"Poppins", sans-serif;
+    font-weight: 800;
   }
   .aa:hover{
     color:#ffbd39;
@@ -236,6 +262,9 @@ header{
     margin-bottom: 20px;
     display: inline-block;
     margin-left: 135px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,"Poppins", sans-serif;
+    font-weight: 800;
   }
   .bb:hover{
     color:#ffbd39;
@@ -245,6 +274,9 @@ header{
     margin-bottom: 20px;
     display: inline-block;
     margin-left: 245px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,"Poppins", sans-serif;
+    font-weight: 800;
   }
   .cc:hover{
     color:#ffbd39;
@@ -270,6 +302,9 @@ header{
     /* margin-right: 40px;  */
     padding-top: 5px;
     padding-bottom:5px ;
+    font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     border: 2px dashed cornflowerblue;
     color:darkgray;
   }
@@ -284,6 +319,9 @@ header{
     /* padding-right: 75px; */
     padding-top: 5px;
     padding-bottom:5px ;
+    font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     border: 2px dashed cornflowerblue;
     color:darkgray;
   }
@@ -297,6 +335,9 @@ header{
     border: 2px dashed cornflowerblue;
     padding-top: 5px;
     padding-bottom:5px;
+    font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color:darkgray;
   }
   #para3:hover{
@@ -317,8 +358,9 @@ header{
     text-decoration: none;
     color:black;
     font-size: 18px;
-    font-weight:100;
-    font-family:cursive;
+    font-family:cursive, "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
   }
   .cbutt:hover{
         background-color: blue;
@@ -372,8 +414,9 @@ header{
    margin-right: 780px;
    margin-top: 10px;
    font-size: 24px;
-    font-family:'Times New Roman', Times, serif;
-    font-weight:100;
+    font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color:darkgray;
     display: inline-block;
     border: 2px dashed cornflowerblue;
@@ -428,8 +471,10 @@ transform: scale(1.1);
 }
 #tex1{
   font-size: 24px;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 100;
+  font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
   color: darkgray;
   margin: 10px;
   padding-top: 35px;
@@ -439,8 +484,10 @@ transform: scale(1.1);
 }
 #tex2{
   font-size: 24px;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 100;
+  
+  font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   color: darkgray;
   margin: 10px;
   padding-top: 35px;
@@ -458,10 +505,10 @@ transform: scale(1.1);
 transform: scale(1.1);
 }
 #experience h1{
-    color:rgb(202, 149, 12);
+    color:#ffbd39;
     text-transform:uppercase;
     margin: 30px;
-    padding-left: 110px;
+    padding-left: 90px;
     margin-top: 45px;
     font-size: 30px;
     
@@ -469,8 +516,9 @@ transform: scale(1.1);
 #text1{
    margin-right: 15px; 
   font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 100;
+  font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: darkgray;
     
 }
@@ -481,10 +529,11 @@ transform: scale(1.1);
   display: none;
 }
 #Certifications-Awards h1{
-  color:rgb(202, 149, 12);
+  color:#ffbd39;
     text-transform:uppercase;
     font-size: 30px;
-    padding-left: 60px;
+    padding-left: 90px;
+    margin: 30px;
 }
 #Certifications-Awards{
     color: aliceblue;
@@ -514,8 +563,10 @@ transform: scale(1.1);
   padding: 10px;
   border: 2px dashed cornflowerblue;
     font-size: 24px;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 100;
+    font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
   color: darkgray;
 }
 @keyframes moveTogether {
@@ -554,6 +605,9 @@ font-size: 24px;
   padding-right: 40px;
   display: inline-block;
   border: 2px dashed cornflowerblue;
+  font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #text4{
   text-align: right;
@@ -563,13 +617,15 @@ font-size: 24px;
   padding-left: 20px;
   margin-right: 15px;
   border: 2px dashed cornflowerblue;
-  /* margin-left: 190px; */
+  font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #Contact h1{
-  color:rgb(202, 149, 12);
+  color:#ffbd39;
     text-transform:uppercase;
     margin: 30px;
-    padding-left: 140px;
+    padding-left: 90px;
     font-size: 30px;
     margin-top: 0;
 }
@@ -665,8 +721,10 @@ font-size: 24px;
 #Contact{
   color:white;
   font-size: 24px;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 100;
+  font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
   color: darkgray;
   margin-top: 0;
 }
@@ -679,9 +737,7 @@ font-size: 24px;
   width: 50px;
   padding-left: 190px;
 }
-#ph{
-  
-}
+
 #f{
   background-color:rgb(35, 34, 34);
   height: 320px;
@@ -726,7 +782,7 @@ font-size: 24px;
 #B{
   background-color: rgb(35, 34, 34);
   color: black;
-  font-size: 14px;
+  font-size: 15px;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -736,469 +792,37 @@ font-size: 24px;
 #foot{
   padding-left: 20px;
   font-size: 24px;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 100;
+  
+  font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   color: darkgray;
 }
 #foot1{
   padding-left: 20px;
-  font-size: 22px;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 100;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
   color: darkgray;
 }
 .Pro{
   display: inline;
 }
-@media (max-width: 0px) {
-  body{
-    padding-right: 5px;
-    padding-left: 5px;
-    margin: 0;
-  }
-  body .container{
-    display:block; 
-     /* justify-content:none; */
-  }
-  .skip-link-s{
-    padding-right: 30px;
-    text-decoration: none;
-    color: white;
-    display: block;
-    font-family:cursive;
-    font-size: 20px;
-}
-.skip-link-s:hover{
-    color: lightblue;
-    text-decoration: underline ;
-    text-underline-offset: 1em;
-}
-.skip-link-c{
-  padding-right: 30px;
-  text-decoration: none;
-  color: white;
-  display: block;
-  font-family:cursive;
-  font-size: 20px;
-}
-.skip-link-c:hover{
-  color: lightblue;
-  text-decoration: underline ;
-  text-underline-offset: 1em;
-}
-.skip-links{
-   display: none;
-}
-.skip-linkc{
-  display: none;
-}
-  #image{
-    
-     display: block; 
-    width: 360px;
-    height: 400px;
-    margin: 0;}
-    
-  #One{
-    margin: 0;
-        margin-top: 75px;
-        padding-left: 10px;
-        font-size: 23px;
-        margin-bottom: 10px;
-        padding-left: 30px;
-        
-  }
-  .container1{
-    display:block;
-    padding: 0;
-  }
-  #text{
-    font-size: 22px;
-  }
-  #Educational-Background h1 {
-   font-size: 23px;
-   padding-left: 10px;
-   margin-left: 0;
-   margin-right: 0;
-   font-family: "Poppins", sans-serif;
-   font-style: normal;
-   font-weight: 800;
-  }
-  #text1{
-    font-size: 22px;
-  }
-  #foot{
-    font-size: 22px;
-    width: 300px;
-  }
-  #image1{
-    margin-left: 65px;
-  }
-  #image-1{
-    margin: 0px;
-        width: 350px;
-  }
-  #Skills-mobile{
-     display: block;
-  }
-  #Skills-mobile h1{
-    margin: 0;
-        margin-top: 75px;
-        padding-left: 10px;
-        font-size: 23px;
-        margin-bottom: 10px;
-        padding-left: 60px;
-  }
-  #Skills {
-      display: none;
-  }
-  #Skills-mobile .a{
-    margin-left: 60px;
-  }
-  #Skills-mobile #image2{
-    width: 310px;
-    display: block;
-  }
-  #Skills-mobile .Pro{
-     font-size: 22px;
-  }
-  #Skills-mobile .b{
-    margin-left: 40px;
-  }
-  #image3{
-    margin-left: 0;
-    margin-right: 0;
-    width:310px;
-    display: block;
-        margin-bottom: 10px;
-  }
-  .c{
-    margin-left: 27px;
-    margin-right: 0;
-    
-  }
-  #image4{
-    width: 310px;
-    display: block;
-    margin-bottom: 10px;
-  }
-
-#Skills-mobile #para1{
-  /* display: flex; */
-  
-  font-size: 22px;
-    font-family:'Times New Roman', Times, serif;
-    font-weight:100;
-    color:darkgray;
-    /* text-align: left; */
-    /* padding-right: 10px; */
-    /* margin-right: 40px; */
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: 2px dashed cornflowerblue;
-    color: darkgray;
-    display: inline-block;
-    /* justify-content: space-between; */
-    width: 310px;
-}
-#Skills-mobile #para2{
-  /* display: flex; */
-  
-  font-size: 22px;
-    font-family:'Times New Roman', Times, serif;
-    font-weight:100;
-    color:darkgray;
-    /* text-align: left; */
-    /* padding-right: 10px; */
-    /* margin-right: 40px; */
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: 2px dashed cornflowerblue;
-    color: darkgray;
-    display: inline-block;
-    /* justify-content: space-between; */
-    width: 310px;
-}
- #Skills-mobile #para3{
-  
-  
-  font-size: 22px;
-    font-family:'Times New Roman', Times, serif;
-    font-weight:100;
-    color:darkgray;
-    
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: 2px dashed cornflowerblue;
-    color: darkgray;
-    display: inline-block;
-    
-    width: 310px;
-} 
-#para1:hover{
-  color: #ffbd39;
-}
-#image5{
-  width: 310px;
-  display: block;
-    margin-bottom: 10px;
-}
-.aa{
-  margin-right: 0;
-  margin-left: 105px;
-
-}
-.bb{
-  margin-left: 65px;
-}
-.cc{
-  margin-left: 90px;
-}
-#image7{
-  margin:0;
-  margin-bottom: 10px;
-  width: 310px;
-}
-#image6{
-  margin:0;
-  margin-bottom: 10px;
-  width: 310px;
-}
-#image8{
-  margin:0;
-  margin-bottom: 10px;
-  width: 310px;
-}
-#image9{
-  margin:0;
-  margin-bottom: 10px;
-  width: 310px;
-}
-#image10{
-  margin:0;
-  margin-bottom: 10px;
-  width: 310px;
-}
-#Skills-mobile .container3{
-  
-  
-  font-size: 22px;
-    font-family:'Times New Roman', Times, serif;
-    font-weight:100;
-    color:darkgray;
-    
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: 2px dashed cornflowerblue;
-    color: darkgray;
-    display: inline-block;
-    width: 310px;
-} 
-
-#experience h1{
-  padding-left: 40px;
-  margin-left: 0;
-  font-size: 23px;
-}
-#img1{
-  margin:0;
-  margin-bottom: 10px;
-  width: 310px;
-  margin-left: 20px;
-}
-#tex1{
-    padding-top: 0;
-    font-size: 22px;
-}
-#img2{
-  margin:0;
-  margin-bottom: 10px;
-  width: 310px;
-  margin-left: 20px;
-}
-#tex2{
-  padding-top: 0;
-  font-size: 22px;
-}
-#Certifications-Awardsmob{
-  display: block;
-  margin-top: 0;
-}
-#Certifications-Awards{
-  display: none;
-}
-#Certifications-Awardsmob h1 {
-  color: #ffbd39;
-  font-size: 23px;
-  padding-left: 10px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  text-transform: uppercase;
- }
- #image11{
-  margin-left: 10px;
-        width: 340px;
- }
- #text2{
-  margin-left: 10px;
-        margin-right: 0;
-        width: 310px;
-
- }
- #image12{
-  margin-left: 10px;
-        width: 340px;
- }
- #text3{
-  font-family: 'Times New Roman', Times, serif;
-    font-weight: 100;
-    color: darkgray;
-    margin-left: 10px;
-    padding: 10px;
-    font-size: 22px;
-    width: 310px;
-    /* animation: moveTogether 2s infinite; */
- }
- #image13{
-  margin-left: 10px;
-        width: 340px;
- }
- #text4{
-  font-family: 'Times New Roman', Times, serif;
-    font-weight: 100;
-    color: darkgray;
-    margin-left: 10px;
-    padding: 10px;
-    font-size: 22px;
-    width: 310px;
-    /* animation: moveTogether 2s infinite; */
- }
- #Contact h1{
-  font-size: 23px;
-  padding-left:10px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
- }
- #flex1{
-    /* justify-content: left; */
-    display: block;
-    /* padding-left: 130px; */
- }
- #ph{
-  display: block;
-  margin-top: 10px;
-  padding-left: 95px;
-}
-#phone{
-  padding-left: 155px;
-}
-#gmail{
-  padding-left: 155px;
-}
-#ph1{
- font-size: 22px;
-}
-#last{
-  padding-left: 15px;
-}
-.A{
-  margin-left: 0;
-  padding-left: 20px;
-  display: block;
-}
-#f{
-  height: 530px;
-  text-align: center;
-}
-#B{
-  margin-top: 0;
-  text-align: left;
-}
-.menu-toggle {
-  display: none;
-}
-
-.menu-icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-        padding-left: 319px;
- 
-  cursor: pointer;
-  padding-top: 10px;
-  /* padding-left: 160px; */
-}
-
-.menu-icon .bar {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin: 4px 0;
-}
-
-.nav-menu {
-  display: none;
-  flex-direction: column;
-  background-color: black;
-  position: absolute;
-  top: 100%;
-  right: 0;
-  width: 100%;
-  text-align: right;
-}
-
-.nav-menu a {
-  padding: 15px;
-  text-decoration: none;
-  color: white;
-  font-family: cursive;
-  font-size: 20px;
-}
-
-.nav-menu a:hover {
-  color: lightblue;
-  text-decoration: underline;
-  text-underline-offset: 1em;
-}
-
-.menu-toggle:checked ~ .nav-menu {
-  display: flex;
-}
-.nav-menu a:active ~ .menu-toggle {
-  display: none;
-}
-
-#insta{
-  margin-left:0;
-}
-#youtube{
-    margin-left: 0px;
-}
-#fab{
-margin-left:0px;
-}
-#link{
-  margin-left: 0px;
-}
-#twitter{
-margin-left: 0px;
-}
-#git{
-  margin-left:0px;
-}
-
-}
 @media (max-width:1285px){
+  #One{
+    margin-bottom: 0;
+  }
   .skip-link-t{
     padding-right: 30px;
     text-decoration: none;
     color: white;
     display: inline-block;
-    font-family:cursive;
     font-size: 20px;
+    font-family: cursive,"Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 .skip-link-t:hover{
     color: lightblue;
@@ -1242,7 +866,7 @@ margin-left: 0px;
     margin-right: 150px;
   }
   .Pro{
-    display: block;
+    display: inline-block;
   }
   .b{
     margin-left: 300px;
@@ -1253,10 +877,10 @@ margin-left: 0px;
   }
   #Skills-tab h1{
     
-      color:rgb(202, 149, 12);
+      color:#ffbd39;
       text-transform:uppercase;
       margin: 30px;
-      padding-left: 140px;
+      padding-left: 90px;
       margin-top: 45px;
       font-size: 30px;
     
@@ -1271,6 +895,8 @@ margin-left: 0px;
   .container3{
     display: block;
     width: 420px;
+    margin-right: 0;
+
   }
   #para1{
     padding: 5px;
@@ -1321,15 +947,24 @@ margin-right: 0;
     text-decoration:none ;
     color: black;
     display:inline-block;
+    font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
   .Ac:hover{
     color: brown;
   }
   .A{
     margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
   .Al2{
     margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif, "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
   .Al1 {
     display: none;
@@ -1354,8 +989,7 @@ margin-right: 0;
     text-decoration: none;
     color: white;
     display: block;
-    font-family:cursive;
-    font-size: 20px;
+    
 }
 .skip-link-s:hover{
     color: lightblue;
@@ -1367,8 +1001,6 @@ margin-right: 0;
   text-decoration: none;
   color: white;
   display: block;
-  font-family:cursive;
-  font-size: 20px;
 }
 .skip-link-c:hover{
   color: lightblue;
@@ -1738,7 +1370,7 @@ margin-right: 0;
   display: none;
 }
 #Certifications-Awardsmob h1 {
-  color:rgb(202, 149, 12);
+  color:#ffbd39;
   font-size: 22px;
   padding-left: 30px;
   margin-left: 0;
@@ -1874,6 +1506,9 @@ margin-right: 0;
   /* padding-left: 20px; */
   display: block;
   font-size: 17px;
+  font-family:"Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #f{
   height: 530px;
@@ -1988,6 +1623,9 @@ margin-left: 0px;
   margin-top: 30px;
   display: block;
   font-size: 17px;
+  font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .Ab:hover{
   color: brown;
@@ -2402,7 +2040,7 @@ margin-left: 0px;
   display: none;
 }
 #Certifications-Awardsmob h1 {
-  color:rgb(202, 149, 12);
+  color:#ffbd39;
   font-size: 22px;
   padding-left: 30px;
   margin-left: 0;
@@ -2538,6 +2176,9 @@ margin-left: 0px;
   /* padding-left: 20px; */
   display: block;
   font-size: 17px;
+  font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #f{
   height: 530px;
@@ -2652,6 +2293,9 @@ margin-left: 0px;
   margin-top: 30px;
   display: block;
   font-size: 17px;
+  font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .Ab:hover{
   color: brown;
@@ -3063,7 +2707,7 @@ margin-left: 0px;
   display: none;
 }
 #Certifications-Awardsmob h1 {
-  color:rgb(202, 149, 12);
+  color:#ffbd39;
   font-size: 22px;
   padding-left: 30px;
   margin-left: 0;
@@ -3199,6 +2843,9 @@ margin-left: 0px;
   /* padding-left: 20px; */
   display: block;
   font-size: 17px;
+  font-family:"Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #f{
   height: 530px;
@@ -3314,6 +2961,9 @@ margin-left: 0px;
   margin-top: 30px;
   display: block;
   font-size: 17px;
+  font-family:"Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .Ab:hover{
   color: brown;
@@ -3730,7 +3380,7 @@ margin-left: 0px;
   display: none;
 }
 #Certifications-Awardsmob h1 {
-  color:rgb(202, 149, 12);
+  color: #ffbd39;
   font-size: 22px;
   padding-left: 30px;
   margin-left: 0;
@@ -3858,9 +3508,12 @@ margin-left: 0px;
 }
 .A{
   margin-left: 0;
-  /* padding-left: 20px; */
+  
   display: block;
   font-size: 17px;
+  font-family:"Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #f{
   height: 530px;
@@ -3916,7 +3569,6 @@ margin-left: 0px;
   padding: 15px;
   text-decoration: none;
   color: white;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 17px;
   padding-bottom: 0;
   font-family: "Poppins", sans-serif;
@@ -3977,6 +3629,9 @@ margin-left: 0px;
   margin-top: 30px;
   display: block;
   font-size: 17px;
+  font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .Ab:hover{
   color: brown;
@@ -3990,6 +3645,4 @@ margin-left: 0px;
 .Ac{
   display: none;
 }
-
-
 }
